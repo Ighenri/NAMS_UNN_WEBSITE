@@ -1,4 +1,5 @@
 
+
 function navlinks(){
     document.getElementById("navbar").style.right="0%"
 }

@@ -22,9 +22,10 @@ html{
     display: flex;
     position: sticky;
     top: 0; left: 0; right: 0;
-    box-shadow:  0 0 .5rem .1rem rgba(0,0,0,.1);
+    box-shadow:  0 0 .5rem .1rem rgba(0,0,0,.2);
     padding: 1rem 5%;
     z-index: 1000;
+    background-color: white;
 }
 
 .head{
@@ -70,10 +71,66 @@ html{
 
 
 
+footer{
+    background-color: #efd0efdc;
+    padding: 2rem 0;
+}
+.footer{
+    display: flex;
+    padding: 1rem 5%;
+}
 
+.footercontent{
+    display: flex;
+    flex-flow: column;
+    width: 25%;
+    gap: 1.5rem;
+    font-size: .8rem;
+}
 
+.footercontent h2{
+    font-size: 1.5rem;
+}
+.footercontent p{
+    color: #777;
+}
 
+.footercontent a{
+    text-decoration: none;
+    color: #777;
+}
+.footercontent a:hover{
+    color: #cf05cf;
+    text-decoration: underline;
+}
 
+.sociallinks a{
+    background: #cf05cf;
+    color: white;
+    padding: .8rem;
+}
+.sociallinks a:hover{
+    background-color: #777;
+    color: white;
+}
+
+.footercontent input{
+    border: 1px solid #cf05cf;
+    padding: .5rem;
+}
+
+.btn{
+    border: 1px solid #cf05cf;
+    width: 50%;
+    padding: .5rem;
+    color: #cf05cf;
+    background-color: #efd0efdc;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-color: #cf05cf;
+    color: white;
+}
 
 
 
@@ -90,6 +147,9 @@ html{
         font-size: 2.0rem;
     }
 
+    .footercontent{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -148,6 +208,16 @@ html{
         font-size: 2rem;
     }
 
+    .footer{
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .footercontent{
+        width: 100%;
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
 }
 
 
@@ -208,5 +278,3 @@ html{
         font-size: 2rem;
     }
 }
-
-
